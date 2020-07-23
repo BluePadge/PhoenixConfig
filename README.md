@@ -26,8 +26,8 @@
 
 ### space行为
 
-- `ctrl + shift + ➡️` 移动当前窗口到右侧工作区
-- `ctrl + shift + ➡️` 移动当前窗口到右侧工作区
+- `ctrl + shift + ->` 移动当前窗口到右侧工作区
+- `ctrl + shift + <-` 移动当前窗口到左侧工作区
 
 ### window行为
 
