@@ -4,6 +4,10 @@
 
 参考自 [Macos 效率篇-切换应用和窗口管理](https://www.guxingke.com/posts/effective-dev-env-for-desktop-manager.html)
 
+## 使用方法
+
+将本工程文件放到 `~/.config/phoenix/` 文件下
+
 ## 应用切换
 
 - alt + q = Chrome
