@@ -298,6 +298,7 @@ function windowSmaller() {
 }
 keys.push(new Key('-', cmdCtrl, windowSmaller));
 keys.push(new Key('-', ctrlShift, windowSmaller));
+keys.push(new Key('-', mashCtrl, windowLarger));
 
 // Window Larger
 function windowLarger() {
@@ -316,6 +317,7 @@ function windowLarger() {
 }
 keys.push(new Key('=', cmdCtrl, windowLarger));
 keys.push(new Key('=', ctrlShift, windowLarger));
+keys.push(new Key('=', mashCtrl, windowLarger));
 
 function halfLeft() {
    var window = getCurrentWindow();
