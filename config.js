@@ -1,6 +1,6 @@
 CONFIG = {
     "APP": {
-        "prefix": ['alt'],
+        "prefix": ['cmd','alt','shift','ctrl'],
         "apps": [
             {
                 "key": 'q',
@@ -15,10 +15,6 @@ CONFIG = {
                 "name": "iTerm"
             },
             {
-                "key": 'w',
-                "name": 'Wechat'
-            },
-            {
                 "key": 'r',
                 "name": 'Rider'
             },
@@ -27,9 +23,13 @@ CONFIG = {
                 "name": 'Lark'
             },
             {
-                "key": '/',
+                "key": 'm',
                 "name": 'Mail'
             },
+            {
+                "key": 'a',
+                "name": 'Android Studio'
+            }
         ]
     }
 }

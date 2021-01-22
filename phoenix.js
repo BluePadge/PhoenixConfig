@@ -332,7 +332,7 @@ function halfLeft() {
    window.setTopLeft({ x: fvf.x, y: of.y })
 }
 
-//keys.push(new Key('h', cmdCtrl, halfLeft))
+keys.push(new Key('left', mashCtrl, halfLeft))
 
 function halfRight() {
    var window = getCurrentWindow();
@@ -349,7 +349,7 @@ function halfRight() {
    window.setTopLeft({ x: fvf.x + fvf.width / 2 + 1, y: of.y })
 }
 
-//keys.push(new Key('l', cmdCtrl, halfRight))
+keys.push(new Key('right', mashCtrl, halfRight))
 
 function halfTop() {
    var window = getCurrentWindow();
@@ -364,7 +364,7 @@ function halfTop() {
 
 }
 
-//keys.push(new Key('k', cmdCtrl, halfTop))
+keys.push(new Key('up', mashCtrl, halfTop))
 
 function halfButtom() {
    var window = getCurrentWindow();
@@ -382,7 +382,7 @@ function halfButtom() {
    window.setTopLeft({ x: of.x, y: fvf.y + fvf.height / 2 + 1 })
 }
 
-//keys.push(new Key('j', cmdCtrl, halfButtom))
+keys.push(new Key('down', mashCtrl, halfButtom))
 
 // Window Central
 keys.push(new Key('g', cmdCtrl, function () {
